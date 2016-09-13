@@ -1,6 +1,12 @@
 /* All images should be short */
 img {
   height: 300px;
+  padding: 10px;
+}
+
+/* Pad articles a bit */
+article {
+  padding: 10px;
 }
 
 /* Header / Nav bar */
