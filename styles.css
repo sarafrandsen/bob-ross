@@ -1,0 +1,35 @@
+/* All images should be short */
+img {
+  height: 300px;
+}
+
+/* Header / Nav bar */
+header, footer {
+  background-color: black;
+  color: white;
+}
+header h1 {
+  padding: 20px;
+}
+footer p {
+  padding: 20px;
+}
+
+nav {
+  padding: 0 0 1em 0;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  display: inline
+}
+nav a {
+  padding: 1em;
+}
+nav a:hover {
+  background-color: white;
+  color: black;
+}
