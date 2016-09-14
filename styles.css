@@ -13,6 +13,7 @@ article {
 header, footer {
   background-color: black;
   color: white;
+  margin: 0px auto;
 }
 header h1 {
   padding: 20px;
