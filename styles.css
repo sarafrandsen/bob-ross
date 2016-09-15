@@ -1,3 +1,62 @@
+/* Fixed header */
+header {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+}
+
+main {
+  margin-top: 130px;
+}
+
+
+
+
+
+
+
+
+/* Make text flow around images */
+img {
+  float: left;
+  clear: both;
+}
+
+/* Make articles appear side by side */
+article:nth-of-type(odd) {
+  float: left;
+  max-width: 70%;
+}
+
+article:nth-of-type(even) {
+  float: right;
+  max-width: 25%;
+}
+
+/*
+footer {
+  clear: both;
+}
+*/
+
+/*
+main {
+  overflow: hidden;
+}
+*/
+
+div.clearer {
+  clear: both;
+}
+
+
+
+
+
+
+
+
+
 /* All images should be short */
 img {
   height: 300px;
