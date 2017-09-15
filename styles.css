@@ -2,11 +2,40 @@
 img {
   height: 300px;
   padding: 10px;
+  float: left;
+  clear: left;
 }
 
 /* Pad articles a bit */
 article {
   padding: 10px;
+  min-width: 300px;
+}
+
+article:nth-of-type(odd) {
+  float: left;
+  max-width: 60%;
+  }
+
+article:nth-of-type(even) {
+  float: right;
+  max-width: 35%;
+  }
+
+footer {
+  clear: both;
+}
+
+article img {
+  clear: both;
+}
+
+article img:nth-of-type(odd) {
+  float:left;
+}
+
+article img:nth-of-type(even) {
+  float:right;
 }
 
 /* Header / Nav bar */
